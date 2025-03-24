@@ -1,0 +1,94 @@
+/* Định dạng tổng thể */
+body {
+    font-family: "Baskerville", Times New Roman, serif;
+    text-align: center;
+    background-color: white;
+}
+
+/* Container chính */
+.container {
+    width: 380px;
+    background-color: #b0d2eb; /* Xanh nhạt */
+    margin: 50px auto;
+    padding: 20px;
+    position: relative;
+}
+
+/* Tiêu đề */
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline; /* Gạch chân */
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    cursor: pointer; /* Con trỏ chuột khi hover */
+}
+
+/* Hover cho tiêu đề */
+.title:hover {
+    color: orange;
+}
+
+.title:visited {
+    color:rgb(189, 126, 248);
+}
+
+/* Khung chứa nội dung */
+.content {
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+
+/* Ảnh sách */
+.book-img {
+    width: 220px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Giá sản phẩm */
+.price {
+    font-size: 18px;
+    font-weight: lighter;
+    color: black;
+    margin-top: 15px;
+}
+
+.highlight {
+    color: red;
+    font-size: 30px;
+}
+
+/* Nút đặt mua */
+.buy-btn {
+    position: absolute;
+    bottom: 10px; /* Thay vì -30px, nâng lên cao hơn */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 111, 0);
+    color: white;
+    border: none;
+    padding: 12px 25px; /* Giảm padding ngang để không bị tràn */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px; /* Làm bo góc đẹp hơn */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    width: fit-content; /* Để chữ không bị tràn nút */
+    min-width: 160px; /* Giữ kích thước hợp lý */
+}
+
+/* Hover cho nút đặt mua */
+.buy-btn:hover {
+    background-color: #e69500;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
