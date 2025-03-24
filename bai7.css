@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baskerville", Times New Roman, serif;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+/* HEADER */
+.header {
+    background: blue;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    height: 130px;
+    line-height: 75px;
+    font-size: 35px;
+}
+
+/* LAYOUT CHÍNH */
+.content {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 20%;
+    float:left
+}
+.menu {
+    background: rgb(10, 169, 222);
+    padding: 15px;
+    margin: 5px;
+    text-align: left;
+    color: white;
+}
+
+/* MAIN CONTENT */
+.main {
+    padding: 10px;
+}
+.text {
+    width: 80%;
+    float: right;
+    text-align: left;
+    margin: 10px;
+}
+/* FOOTER */
+.footer {
+    background: blue;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    height: 80px;
+    line-height: 45px;
+}
