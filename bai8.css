@@ -1,0 +1,110 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baskerville", Times New Roman, serif;
+}
+
+/* Thanh điều hướng chính */
+.navbar {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+}
+
+/* Home - Màu xanh lá */
+.nav-home {
+    background-color: #4CAF50; /* Màu xanh lá */
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mục còn lại - Màu hồng */
+.nav-links {
+    background-color: #ffcccc; /* Màu hồng */
+    display: flex;
+    width: 100%;
+}
+
+.nav-links div {
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Bố cục chính */
+.container {
+    width: 100%;
+    margin-top: 50px; /* Để không bị che bởi navbar */
+    align-items: flex-start; /* Canh đỉnh ngang nhau */
+}
+
+/* Sidebar */
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    float: left;
+}
+
+.sidebar div {
+    display: block;
+    padding: 10px;
+    background-color: #ddd;
+    margin-bottom: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.sidebar div.active {
+    background-color: #51a1d6; /* Màu xanh khi active */
+    color: white;
+}
+
+/* Nội dung chính */
+.main-content {
+    width: calc(100% - 300px);
+    padding: 20px; /* Tăng padding */
+    float: right;
+}
+
+/* Tiêu đề The City */
+.banner {
+    background-color: #187bbd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 125px;
+    line-height: 80px;
+}
+
+/* Chỉnh tiêu đề Chania */
+.main-content h1 {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+/* Chỉnh đoạn văn */
+.main-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+/* Footer */
+.footer {
+    background-color: #a8ddf0; /* Màu xanh nhạt */
+    color:white;
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    line-height: 50px;
+}
